@@ -120,6 +120,7 @@
 }
 
 .video-container {
+  user-select: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -150,6 +151,7 @@
 }
 
 .video-player {
+  user-select: none;
   width: 100%;
   height: 100%;
 }
@@ -224,6 +226,7 @@
 }
 
 .arrow {
+  user-select: none;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -333,6 +336,7 @@
 }
 
 .backdrop-container {
+  user-select: none;
   position: absolute;
   top: 0%;
   right: 0%;
@@ -404,6 +408,7 @@
 }
 
 .gradient-overlay {
+  user-select: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -439,6 +444,7 @@
   z-index: 5;
   top: 15vh;
   left: 4vw;
+  user-select: none;
 }
 
 .logo {
@@ -495,6 +501,7 @@
 }
 
 .button-container {
+  user-select: none;
   position: absolute;
   top: calc(50% + 17vh);
   left: 4vw;
