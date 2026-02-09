@@ -864,3 +864,10 @@
     top: calc(50% + 15vh);
   }
 }
+
+/* Fix ratings position */
+.mediaInfoOfficialRating {
+  &,&:hover {
+    transform: none !important;
+  }
+}
